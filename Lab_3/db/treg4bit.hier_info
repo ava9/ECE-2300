@@ -1,0 +1,33 @@
+|treg4bit
+CLK => CLK.IN4
+RESET => RESET.IN4
+IN[0] => IN[0].IN1
+IN[1] => IN[1].IN1
+IN[2] => IN[2].IN1
+IN[3] => IN[3].IN1
+
+
+|treg4bit|tffp:reg0
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|treg4bit|tffp:reg1
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|treg4bit|tffp:reg2
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|treg4bit|tffp:reg3
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+

@@ -1,0 +1,351 @@
+|lab3
+CLK50 => CLK50.IN1
+RESET => comb.IN0
+RESET => comb.IN1
+RESET => comb.IN1
+RESET => comb.IN1
+RESET => comb.IN1
+CLK_SEL[0] => CLK_SEL[0].IN1
+CLK_SEL[1] => CLK_SEL[1].IN1
+CLK_SEL[2] => CLK_SEL[2].IN1
+ENABLE => ENABLE.IN5
+
+
+|lab3|tcounter:h0
+CLK => CLK.IN1
+CLR => _.IN1
+ENP => comb.IN0
+ENT => comb.IN1
+
+
+|lab3|tcounter:h0|treg4bit:counter
+CLK => CLK.IN4
+RESET => RESET.IN4
+IN[0] => IN[0].IN1
+IN[1] => IN[1].IN1
+IN[2] => IN[2].IN1
+IN[3] => IN[3].IN1
+
+
+|lab3|tcounter:h0|treg4bit:counter|tffp:reg0
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:h0|treg4bit:counter|tffp:reg1
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:h0|treg4bit:counter|tffp:reg2
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:h0|treg4bit:counter|tffp:reg3
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:h1
+CLK => CLK.IN1
+CLR => _.IN1
+ENP => comb.IN0
+ENT => comb.IN1
+
+
+|lab3|tcounter:h1|treg4bit:counter
+CLK => CLK.IN4
+RESET => RESET.IN4
+IN[0] => IN[0].IN1
+IN[1] => IN[1].IN1
+IN[2] => IN[2].IN1
+IN[3] => IN[3].IN1
+
+
+|lab3|tcounter:h1|treg4bit:counter|tffp:reg0
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:h1|treg4bit:counter|tffp:reg1
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:h1|treg4bit:counter|tffp:reg2
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:h1|treg4bit:counter|tffp:reg3
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:S0
+CLK => CLK.IN1
+CLR => _.IN1
+ENP => comb.IN0
+ENT => comb.IN1
+
+
+|lab3|tcounter:S0|treg4bit:counter
+CLK => CLK.IN4
+RESET => RESET.IN4
+IN[0] => IN[0].IN1
+IN[1] => IN[1].IN1
+IN[2] => IN[2].IN1
+IN[3] => IN[3].IN1
+
+
+|lab3|tcounter:S0|treg4bit:counter|tffp:reg0
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:S0|treg4bit:counter|tffp:reg1
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:S0|treg4bit:counter|tffp:reg2
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:S0|treg4bit:counter|tffp:reg3
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:S1
+CLK => CLK.IN1
+CLR => _.IN1
+ENP => comb.IN0
+ENT => comb.IN1
+
+
+|lab3|tcounter:S1|treg4bit:counter
+CLK => CLK.IN4
+RESET => RESET.IN4
+IN[0] => IN[0].IN1
+IN[1] => IN[1].IN1
+IN[2] => IN[2].IN1
+IN[3] => IN[3].IN1
+
+
+|lab3|tcounter:S1|treg4bit:counter|tffp:reg0
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:S1|treg4bit:counter|tffp:reg1
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:S1|treg4bit:counter|tffp:reg2
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:S1|treg4bit:counter|tffp:reg3
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:M
+CLK => CLK.IN1
+CLR => _.IN1
+ENP => comb.IN0
+ENT => comb.IN1
+
+
+|lab3|tcounter:M|treg4bit:counter
+CLK => CLK.IN4
+RESET => RESET.IN4
+IN[0] => IN[0].IN1
+IN[1] => IN[1].IN1
+IN[2] => IN[2].IN1
+IN[3] => IN[3].IN1
+
+
+|lab3|tcounter:M|treg4bit:counter|tffp:reg0
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:M|treg4bit:counter|tffp:reg1
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:M|treg4bit:counter|tffp:reg2
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|tcounter:M|treg4bit:counter|tffp:reg3
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+
+|lab3|var_clk:clockGenerator
+clock_sel[0] => Mux0.IN2
+clock_sel[1] => Mux0.IN1
+clock_sel[2] => Mux0.IN0
+clock_50MHz => clock_50MHz.IN8
+
+
+|lab3|var_clk:clockGenerator|pclock:counter_10MHz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab3|var_clk:clockGenerator|pclock:counter_1MHz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab3|var_clk:clockGenerator|pclock:counter_100kHz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab3|var_clk:clockGenerator|pclock:counter_10kHz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab3|var_clk:clockGenerator|pclock:counter_1kHz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab3|var_clk:clockGenerator|pclock:counter_100Hz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab3|var_clk:clockGenerator|pclock:counter_10Hz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab3|var_clk:clockGenerator|pclock:counter_1Hz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab3|hex_to_seven_seg:minDisplay
+B[0] => u1.DATAIN
+B[1] => u2.DATAIN
+B[2] => u3.DATAIN
+B[3] => u4.DATAIN
+
+
+|lab3|hex_to_seven_seg:tensecDisplay
+B[0] => u1.DATAIN
+B[1] => u2.DATAIN
+B[2] => u3.DATAIN
+B[3] => u4.DATAIN
+
+
+|lab3|hex_to_seven_seg:secDisplay
+B[0] => u1.DATAIN
+B[1] => u2.DATAIN
+B[2] => u3.DATAIN
+B[3] => u4.DATAIN
+
+
+|lab3|hex_to_seven_seg:decisecDisplay
+B[0] => u1.DATAIN
+B[1] => u2.DATAIN
+B[2] => u3.DATAIN
+B[3] => u4.DATAIN
+
+
+|lab3|hex_to_seven_seg:centisecDisplay
+B[0] => u1.DATAIN
+B[1] => u2.DATAIN
+B[2] => u3.DATAIN
+B[3] => u4.DATAIN
+
+

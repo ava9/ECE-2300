@@ -1,0 +1,364 @@
+# Reading C:/altera/11.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab3_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying c:\altera\11.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\11.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {lab3.vo}
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module lab3
+# 
+# Top level modules:
+# 	lab3
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Alex/Desktop/lab3 {C:/Users/Alex/Desktop/lab3/lab3_test.v}
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module lab3_test
+# 
+# Top level modules:
+# 	lab3_test
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc" lab3_test
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps lab3_test 
+# Loading work.lab3_test
+# Loading work.lab3
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# SDF 6.6d Compiler 2010.11 Nov  2 2010
+# 
+# Loading instances from lab3_v.sdo
+# ** Warning: (vsim-3017) C:/Users/Alex/Desktop/lab3/lab3_test.v(43): [TFMPC] - Too few port connections. Expected 14, found 6.
+#         Region: /lab3_test/UUT
+# ** Warning: (vsim-3722) C:/Users/Alex/Desktop/lab3/lab3_test.v(43): [TFMPC] - Missing connection for port 'HEX7'.
+# ** Warning: (vsim-3722) C:/Users/Alex/Desktop/lab3/lab3_test.v(43): [TFMPC] - Missing connection for port 'HEX6'.
+# ** Warning: (vsim-3722) C:/Users/Alex/Desktop/lab3/lab3_test.v(43): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/Alex/Desktop/lab3/lab3_test.v(43): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/Alex/Desktop/lab3/lab3_test.v(43): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/Alex/Desktop/lab3/lab3_test.v(43): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/Alex/Desktop/lab3/lab3_test.v(43): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/Alex/Desktop/lab3/lab3_test.v(43): [TFMPC] - Missing connection for port 'HEX0'.
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Loading timing data from lab3_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /lab3_test  File: C:/Users/Alex/Desktop/lab3/lab3_test.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# MSIM>
+# MSIM> FULL STOPWATCH TEST CASES (can be ignored for Part A)
+# MSIM>
+# MSIM> Reset is correct, TIME now 0:00:00
+# MSIM> Increment is correct, TIME now 0:00:00
+# MSIM> Increment is correct, TIME now 0:00:01
+# MSIM> Increment is correct, TIME now 0:00:02
+# MSIM> Increment is correct, TIME now 0:00:03
+# MSIM> Increment is correct, TIME now 0:00:04
+# MSIM> Increment is correct, TIME now 0:00:05
+# MSIM> Increment is correct, TIME now 0:00:06
+# MSIM> Increment is correct, TIME now 0:00:07
+# MSIM> Increment is correct, TIME now 0:00:08
+# MSIM> Increment is correct, TIME now 0:00:09
+# MSIM> Increment is correct, TIME now 0:00:10
+# MSIM> Increment is correct, TIME now 0:00:11
+# MSIM> Increment is correct, TIME now 0:00:12
+# MSIM> Increment is correct, TIME now 0:00:13
+# MSIM> Increment is correct, TIME now 0:00:14
+# MSIM> Increment is correct, TIME now 0:00:15
+# MSIM> Increment is correct, TIME now 0:00:16
+# MSIM> Increment is correct, TIME now 0:00:17
+# MSIM> Increment is correct, TIME now 0:00:18
+# MSIM> Increment is correct, TIME now 0:00:19
+# MSIM> Increment is correct, TIME now 0:00:20
+# MSIM> Increment is correct, TIME now 0:00:21
+# MSIM> Increment is correct, TIME now 0:00:22
+# MSIM> Increment is correct, TIME now 0:00:23
+# MSIM> Increment is correct, TIME now 0:00:24
+# MSIM> Increment is correct, TIME now 0:00:25
+# MSIM> Increment is correct, TIME now 0:00:26
+# MSIM> Increment is correct, TIME now 0:00:27
+# MSIM> Increment is correct, TIME now 0:00:28
+# MSIM> Increment is correct, TIME now 0:00:29
+# MSIM> Increment is correct, TIME now 0:00:30
+# MSIM> Increment is correct, TIME now 0:00:31
+# MSIM> Increment is correct, TIME now 0:00:32
+# MSIM> Increment is correct, TIME now 0:00:33
+# MSIM> Increment is correct, TIME now 0:00:34
+# MSIM> Increment is correct, TIME now 0:00:35
+# MSIM> Increment is correct, TIME now 0:00:36
+# MSIM> Increment is correct, TIME now 0:00:37
+# MSIM> Increment is correct, TIME now 0:00:38
+# MSIM> Increment is correct, TIME now 0:00:39
+# MSIM> Increment is correct, TIME now 0:00:40
+# MSIM> Increment is correct, TIME now 0:00:41
+# MSIM> Increment is correct, TIME now 0:00:42
+# MSIM> Increment is correct, TIME now 0:00:43
+# MSIM> Increment is correct, TIME now 0:00:44
+# MSIM> Increment is correct, TIME now 0:00:45
+# MSIM> Increment is correct, TIME now 0:00:46
+# MSIM> Increment is correct, TIME now 0:00:47
+# MSIM> Increment is correct, TIME now 0:00:48
+# MSIM> Increment is correct, TIME now 0:00:49
+# MSIM> Increment is correct, TIME now 0:00:50
+# MSIM> Increment is correct, TIME now 0:00:51
+# MSIM> Increment is correct, TIME now 0:00:52
+# MSIM> Increment is correct, TIME now 0:00:53
+# MSIM> Increment is correct, TIME now 0:00:54
+# MSIM> Increment is correct, TIME now 0:00:55
+# MSIM> Increment is correct, TIME now 0:00:56
+# MSIM> Increment is correct, TIME now 0:00:57
+# MSIM> Increment is correct, TIME now 0:00:58
+# MSIM> Increment is correct, TIME now 0:00:59
+# MSIM> Increment is correct, TIME now 0:00:60
+# MSIM> Increment is correct, TIME now 0:00:61
+# MSIM> Increment is correct, TIME now 0:00:62
+# MSIM> Increment is correct, TIME now 0:00:63
+# MSIM> Increment is correct, TIME now 0:00:64
+# MSIM> Increment is correct, TIME now 0:00:65
+# MSIM> Increment is correct, TIME now 0:00:66
+# MSIM> Increment is correct, TIME now 0:00:67
+# MSIM> Increment is correct, TIME now 0:00:68
+# MSIM> Increment is correct, TIME now 0:00:69
+# MSIM> Increment is correct, TIME now 0:00:70
+# MSIM> Increment is correct, TIME now 0:00:71
+# MSIM> Increment is correct, TIME now 0:00:72
+# MSIM> Increment is correct, TIME now 0:00:73
+# MSIM> Increment is correct, TIME now 0:00:74
+# MSIM> Increment is correct, TIME now 0:00:75
+# MSIM> Increment is correct, TIME now 0:00:76
+# MSIM> Increment is correct, TIME now 0:00:77
+# MSIM> Increment is correct, TIME now 0:00:78
+# MSIM> Increment is correct, TIME now 0:00:79
+# MSIM> Increment is correct, TIME now 0:00:80
+# MSIM> Increment is correct, TIME now 0:00:81
+# MSIM> Increment is correct, TIME now 0:00:82
+# MSIM> Increment is correct, TIME now 0:00:83
+# MSIM> Increment is correct, TIME now 0:00:84
+# MSIM> Increment is correct, TIME now 0:00:85
+# MSIM> Increment is correct, TIME now 0:00:86
+# MSIM> Increment is correct, TIME now 0:00:87
+# MSIM> Increment is correct, TIME now 0:00:88
+# MSIM> Increment is correct, TIME now 0:00:89
+# MSIM> Increment is correct, TIME now 0:00:90
+# MSIM> Increment is correct, TIME now 0:00:91
+# MSIM> Increment is correct, TIME now 0:00:92
+# MSIM> Increment is correct, TIME now 0:00:93
+# MSIM> Increment is correct, TIME now 0:00:94
+# MSIM> Increment is correct, TIME now 0:00:95
+# MSIM> Increment is correct, TIME now 0:00:96
+# MSIM> Increment is correct, TIME now 0:00:97
+# MSIM> Increment is correct, TIME now 0:00:98
+# MSIM> Increment is correct, TIME now 0:00:99
+# MSIM> Increment is correct, TIME now 0:01:00
+# MSIM> Increment is correct, TIME now 0:01:01
+# MSIM> Increment is correct, TIME now 0:01:02
+# MSIM> Increment is correct, TIME now 0:01:03
+# MSIM> Increment is correct, TIME now 0:01:04
+# MSIM> Increment is correct, TIME now 0:01:05
+# MSIM> Increment is correct, TIME now 0:01:06
+# MSIM> Increment is correct, TIME now 0:01:07
+# MSIM> Increment is correct, TIME now 0:01:08
+# MSIM> Increment is correct, TIME now 0:01:09
+# MSIM> Increment is correct, TIME now 0:01:10
+# MSIM> Increment is correct, TIME now 0:01:11
+# MSIM> Increment is correct, TIME now 0:01:12
+# MSIM> Increment is correct, TIME now 0:01:13
+# MSIM> Increment is correct, TIME now 0:01:14
+# MSIM> Increment is correct, TIME now 0:01:15
+# MSIM> Increment is correct, TIME now 0:01:16
+# MSIM> Increment is correct, TIME now 0:01:17
+# MSIM> Increment is correct, TIME now 0:01:18
+# MSIM> Increment is correct, TIME now 0:01:19
+# MSIM> Increment is correct, TIME now 0:01:20
+# MSIM> Increment is correct, TIME now 0:01:21
+# MSIM> Increment is correct, TIME now 0:01:22
+# MSIM> Increment is correct, TIME now 0:01:23
+# MSIM> Increment is correct, TIME now 0:01:24
+# MSIM> Increment is correct, TIME now 0:01:25
+# MSIM> Increment is correct, TIME now 0:01:26
+# MSIM> Increment is correct, TIME now 0:01:27
+# MSIM> Increment is correct, TIME now 0:01:28
+# MSIM> Increment is correct, TIME now 0:01:29
+# MSIM> Increment is correct, TIME now 0:01:30
+# MSIM> Increment is correct, TIME now 0:01:31
+# MSIM> Increment is correct, TIME now 0:01:32
+# MSIM> Increment is correct, TIME now 0:01:33
+# MSIM> Increment is correct, TIME now 0:01:34
+# MSIM> Increment is correct, TIME now 0:01:35
+# MSIM> Increment is correct, TIME now 0:01:36
+# MSIM> Increment is correct, TIME now 0:01:37
+# MSIM> Increment is correct, TIME now 0:01:38
+# MSIM> Increment is correct, TIME now 0:01:39
+# MSIM> Increment is correct, TIME now 0:01:40
+# MSIM> Increment is correct, TIME now 0:01:41
+# MSIM> Increment is correct, TIME now 0:01:42
+# MSIM> Increment is correct, TIME now 0:01:43
+# MSIM> Increment is correct, TIME now 0:01:44
+# MSIM> Increment is correct, TIME now 0:01:45
+# MSIM> Increment is correct, TIME now 0:01:46
+# MSIM> Increment is correct, TIME now 0:01:47
+# MSIM> Increment is correct, TIME now 0:01:48
+# MSIM> Increment is correct, TIME now 0:01:49
+# MSIM> Increment is correct, TIME now 0:01:50
+# MSIM> Increment is correct, TIME now 0:01:51
+# MSIM> Increment is correct, TIME now 0:01:52
+# MSIM> Increment is correct, TIME now 0:01:53
+# MSIM> Increment is correct, TIME now 0:01:54
+# MSIM> Increment is correct, TIME now 0:01:55
+# MSIM> Increment is correct, TIME now 0:01:56
+# MSIM> Increment is correct, TIME now 0:01:57
+# MSIM> Increment is correct, TIME now 0:01:58
+# MSIM> Increment is correct, TIME now 0:01:59
+# MSIM> Increment is correct, TIME now 0:01:60
+# MSIM> Increment is correct, TIME now 0:01:61
+# MSIM> Increment is correct, TIME now 0:01:62
+# MSIM> Increment is correct, TIME now 0:01:63
+# MSIM> Increment is correct, TIME now 0:01:64
+# MSIM> Increment is correct, TIME now 0:01:65
+# MSIM> Increment is correct, TIME now 0:01:66
+# MSIM> Increment is correct, TIME now 0:01:67
+# MSIM> Increment is correct, TIME now 0:01:68
+# MSIM> Increment is correct, TIME now 0:01:69
+# MSIM> Increment is correct, TIME now 0:01:70
+# MSIM> Increment is correct, TIME now 0:01:71
+# MSIM> Increment is correct, TIME now 0:01:72
+# MSIM> Increment is correct, TIME now 0:01:73
+# MSIM> Increment is correct, TIME now 0:01:74
+# MSIM> Increment is correct, TIME now 0:01:75
+# MSIM> Increment is correct, TIME now 0:01:76
+# MSIM> Increment is correct, TIME now 0:01:77
+# MSIM> Increment is correct, TIME now 0:01:78
+# MSIM> Increment is correct, TIME now 0:01:79
+# MSIM> Increment is correct, TIME now 0:01:80
+# MSIM> Increment is correct, TIME now 0:01:81
+# MSIM> Increment is correct, TIME now 0:01:82
+# MSIM> Increment is correct, TIME now 0:01:83
+# MSIM> Increment is correct, TIME now 0:01:84
+# MSIM> Increment is correct, TIME now 0:01:85
+# MSIM> Increment is correct, TIME now 0:01:86
+# MSIM> Increment is correct, TIME now 0:01:87
+# MSIM> Increment is correct, TIME now 0:01:88
+# MSIM> Increment is correct, TIME now 0:01:89
+# MSIM> Increment is correct, TIME now 0:01:90
+# MSIM> Increment is correct, TIME now 0:01:91
+# MSIM> Increment is correct, TIME now 0:01:92
+# MSIM> Increment is correct, TIME now 0:01:93
+# MSIM> Increment is correct, TIME now 0:01:94
+# MSIM> Increment is correct, TIME now 0:01:95
+# MSIM> Increment is correct, TIME now 0:01:96
+# MSIM> Increment is correct, TIME now 0:01:97
+# MSIM> Increment is correct, TIME now 0:01:98
+# MSIM> Increment is correct, TIME now 0:01:99
+# MSIM> Increment is correct, TIME now 0:02:00
+# MSIM> Increment is correct after a long time, TIME now 0:59:95
+# MSIM> Increment is correct, TIME now 0:59:96
+# MSIM> Increment is correct, TIME now 0:59:97
+# MSIM> Increment is correct, TIME now 0:59:98
+# MSIM> Increment is correct, TIME now 0:59:99
+# MSIM> Increment is correct, TIME now 1:00:00
+# MSIM> Increment is correct, TIME now 1:00:01
+# MSIM> Increment is correct, TIME now 1:00:02
+# MSIM> Increment is correct, TIME now 1:00:03
+# MSIM> Holding is correct, TIME now 1:00:03
+# MSIM> Holding is correct, TIME now 1:00:03
+# MSIM> Holding is correct, TIME now 1:00:03
+# MSIM> Holding is correct, TIME now 1:00:03
+# MSIM> Holding is correct, TIME now 1:00:03
+# MSIM> Holding is correct, TIME now 1:00:03
+# MSIM> Holding is correct, TIME now 1:00:03
+# MSIM> Incrementing after holding is correct, TIME now 1:00:04
+# MSIM> Incrementing after holding is correct, TIME now 1:00:05
+# MSIM> Incrementing after holding is correct, TIME now 1:00:06
+# MSIM> Incrementing after holding is correct, TIME now 1:00:07
+# MSIM> Holding is correct, TIME now 1:00:07
+# MSIM> Holding is correct, TIME now 1:00:07
+# MSIM> Resetting while not enabled is correct, TIME now 0:00:00
+# MSIM> Resetting while not enabled is correct, TIME now 0:00:00
+# MSIM> Resetting while not enabled is correct, TIME now 0:00:00
+# MSIM> Resetting while not enabled is correct, TIME now 0:00:00
+# MSIM> Resetting while not enabled is correct, TIME now 0:00:00
+# MSIM> Resetting while not enabled is correct, TIME now 0:00:00
+# MSIM> Resetting while not enabled is correct, TIME now 0:00:00
+# MSIM> Holding after reset is correct, TIME now 0:00:00
+# MSIM> Holding after reset is correct, TIME now 0:00:00
+# MSIM> Incrementing after resetting is correct, TIME now 0:00:01
+# MSIM> Incrementing after resetting is correct, TIME now 0:00:02
+# MSIM> Incrementing after resetting is correct, TIME now 0:00:03
+# MSIM> Incrementing after resetting is correct, TIME now 0:00:04
+# MSIM> Incrementing after resetting is correct, TIME now 0:00:05
+# MSIM> Incrementing after resetting is correct, TIME now 0:00:06
+# MSIM>
+# MSIM> ===============================================================
+# MSIM>
+# MSIM> CENTISEC TEST CASES (can be ignored for Part B)
+# MSIM>
+# MSIM> Reset is correct, CENTISEC now  0
+# MSIM> Incrementing is correct for this cycle, CENTISEC now  1
+# MSIM> Incrementing is correct for this cycle, CENTISEC now  2
+# MSIM> Incrementing is correct for this cycle, CENTISEC now  3
+# MSIM> Incrementing is correct for this cycle, CENTISEC now  4
+# MSIM> Incrementing is correct for this cycle, CENTISEC now  5
+# MSIM> Incrementing is correct for this cycle, CENTISEC now  6
+# MSIM> Incrementing is correct for this cycle, CENTISEC now  7
+# MSIM> Incrementing is correct for this cycle, CENTISEC now  8
+# MSIM> Incrementing is correct for this cycle, CENTISEC now  9
+# MSIM> ERROR: Incrementing is incorrect. CENTISEC should be 10, but is  0
+# MSIM> ERROR: Incrementing is incorrect. CENTISEC should be 11, but is  1
+# MSIM> ERROR: Incrementing is incorrect. CENTISEC should be 12, but is  2
+# MSIM> ERROR: Incrementing is incorrect. CENTISEC should be 13, but is  3
+# MSIM> ERROR: Incrementing is incorrect. CENTISEC should be 14, but is  4
+# MSIM> ERROR: Incrementing is incorrect. CENTISEC should be 15, but is  5
+# MSIM> ERROR: Incrementing is incorrect. CENTISEC should be  0, but is  6
+# MSIM> ERROR: Incrementing is incorrect. CENTISEC should be  1, but is  7
+# MSIM> ERROR: Incrementing is incorrect. CENTISEC should be  2, but is  8
+# MSIM> ERROR: Incrementing is incorrect. CENTISEC should be  3, but is  9
+# MSIM> ERROR: Incrementing is incorrect. CENTISEC should be  4, but is  0
+# MSIM> ERROR: Holding is incorrect. CENTISEC should be  4, but is  0
+# MSIM> ERROR: Holding is incorrect. CENTISEC should be  4, but is  0
+# MSIM> ERROR: Holding is incorrect. CENTISEC should be  4, but is  0
+# MSIM> ERROR: Holding is incorrect. CENTISEC should be  4, but is  0
+# MSIM> ERROR: Holding is incorrect. CENTISEC should be  4, but is  0
+# MSIM> ERROR: Incrementing after holding is incorrect. CENTISEC should be  5, but is  1
+# MSIM> ERROR: Incrementing after holding is incorrect. CENTISEC should be  6, but is  2
+# MSIM> ERROR: Incrementing after holding is incorrect. CENTISEC should be  7, but is  3
+# MSIM> ERROR: Incrementing after holding is incorrect. CENTISEC should be  8, but is  4
+# MSIM> ERROR: Incrementing after holding is incorrect. CENTISEC should be  9, but is  5
+# MSIM> ERROR: Holding is incorrect. CENTISEC should be  9, but is  5
+# MSIM> ERROR: Holding is incorrect. CENTISEC should be  9, but is  5
+# MSIM> ERROR: Holding is incorrect. CENTISEC should be  9, but is  5
+# MSIM> ERROR: Holding is incorrect. CENTISEC should be  9, but is  5
+# MSIM> ERROR: Holding is incorrect. CENTISEC should be  9, but is  5
+# MSIM> Resetting while not enabled is correct for this cycle, CENTISEC now  0
+# MSIM> Resetting while not enabled is correct for this cycle, CENTISEC now  0
+# MSIM> Resetting while not enabled is correct for this cycle, CENTISEC now  0
+# MSIM> Resetting while not enabled is correct for this cycle, CENTISEC now  0
+# MSIM> Resetting while not enabled is correct for this cycle, CENTISEC now  0
+# MSIM> Holding after reset is correct for this cycle, CENTISEC now  0
+# MSIM> Holding after reset is correct for this cycle, CENTISEC now  0
+# MSIM> Holding after reset is correct for this cycle, CENTISEC now  0
+# MSIM> Holding after reset is correct for this cycle, CENTISEC now  0
+# MSIM> Holding after reset is correct for this cycle, CENTISEC now  0
+# MSIM> Incrementing after holding is correct for this cycle, CENTISEC now  1
+# MSIM> Incrementing after holding is correct for this cycle, CENTISEC now  2
+# MSIM> Incrementing after holding is correct for this cycle, CENTISEC now  3
+# MSIM> Incrementing after holding is correct for this cycle, CENTISEC now  4
+# MSIM> Incrementing after holding is correct for this cycle, CENTISEC now  5
+# Break in Module lab3_test at C:/Users/Alex/Desktop/lab3/lab3_test.v line 436
+# Simulation Breakpoint: Break in Module lab3_test at C:/Users/Alex/Desktop/lab3/lab3_test.v line 436
+# MACRO ./lab3_run_msim_gate_verilog.do PAUSED at line 17

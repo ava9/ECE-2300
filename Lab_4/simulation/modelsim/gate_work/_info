@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Cornell\Freshmen\Academics\Semester 2\ECE 2300\Pre Lab\lab4\simulation\modelsim
+vlab4
+Ik?7?;=[DLTLhfNK@U9`zf3
+V_TJ9AP:;T2=bO8zDCj^S[0
+Z1 dD:\Cornell\Freshmen\Academics\Semester 2\ECE 2300\Pre Lab\lab4\simulation\modelsim
+w1394754068
+8lab4.vo
+Flab4.vo
+L0 31
+Z2 OV;L;6.6d;45
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!s100 2m5@1QCDLZOTEO`H=lzh33
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vlab4_test
+!s100 <AhXUP`:_UznR5eMn<R?30
+IKCmjXcHdBOi`nflKXZz=b3
+V2VobAnRadKYR2DYSjM1L^1
+R1
+w1394753584
+8D:/Cornell/Freshmen/Academics/Semester 2/ECE 2300/Pre Lab/lab4/lab4_test.v
+FD:/Cornell/Freshmen/Academics/Semester 2/ECE 2300/Pre Lab/lab4/lab4_test.v
+L0 16
+R2
+r1
+!s85 0
+31
+!s101 -O0
+R3
+!s92 -vlog01compat -work work {+incdir+D:/Cornell/Freshmen/Academics/Semester 2/ECE 2300/Pre Lab/lab4} -O0

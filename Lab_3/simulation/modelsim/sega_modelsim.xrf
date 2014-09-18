@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Alex/Desktop/lab3/sega.v
+source_file = 1, C:/Users/Alex/Desktop/lab3/db/sega.cbx.xml
+design_name = sega
+instance = comp, \Y~I , Y, sega, 1
+instance = comp, \W~I , W, sega, 1
+instance = comp, \Z~I , Z, sega, 1
+instance = comp, \X~I , X, sega, 1
+instance = comp, \OUT~0 , OUT~0, sega, 1
+instance = comp, \OUT~I , OUT, sega, 1
+instance = comp, \OUTNAND~I , OUTNAND, sega, 1

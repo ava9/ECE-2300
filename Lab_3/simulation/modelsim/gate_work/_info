@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Alex\Desktop\lab3\simulation\modelsim
+vlab3
+I0`lm1PXi@S3Ia@aSj0ll02
+Vo;PdBTO;C:[eaCeb_h@:M2
+Z1 dC:\Users\Alex\Desktop\lab3\simulation\modelsim
+w1394475312
+8lab3.vo
+Flab3.vo
+L0 31
+Z2 OV;L;6.6d;45
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!s100 I3_n2Z_6bPbB9IgeJKe0b1
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vlab3_test
+!s100 GDfC;QWXY7:YIS23YOMaZ2
+IE`CL]A?cUm:o2JFAZ97DS2
+V2fF9ndMBeWcSHOLXBfoJ01
+R1
+w1394473288
+8C:/Users/Alex/Desktop/lab3/lab3_test.v
+FC:/Users/Alex/Desktop/lab3/lab3_test.v
+L0 14
+R2
+r1
+!s85 0
+31
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/Alex/Desktop/lab3 -O0

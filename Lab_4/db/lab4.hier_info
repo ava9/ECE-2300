@@ -1,0 +1,233 @@
+|lab4
+CLK50 => CLK50.IN1
+RESET => RESET.IN2
+CLK_SEL[0] => CLK_SEL[0].IN1
+CLK_SEL[1] => CLK_SEL[1].IN1
+CLK_SEL[2] => CLK_SEL[2].IN1
+NEXT => always2.IN1
+NEXT => always2.IN1
+NEXT => Mux1.IN14
+NEXT => Mux3.IN14
+NEXT => Mux1.IN15
+NEXT => Mux2.IN15
+NEXT => Mux3.IN15
+NEXT => always2.IN1
+NEXT => always2.IN1
+NEXT => Mux0.IN12
+NEXT => Mux0.IN13
+PLAYER_A => always2.IN0
+PLAYER_A => always2.IN0
+PLAYER_A => NEXTSTATE.DATAA
+PLAYER_A => NEXTSTATE.DATAA
+PLAYER_A => NEXTSTATE[1].IN1
+PLAYER_A => NEXTSTATE.DATAA
+PLAYER_B => always2.IN1
+PLAYER_B => always2.IN1
+TEST_LOAD => ~NO_FANOUT~
+
+
+|lab4|countdown:counting
+RESET => COUNT.OUTPUTSELECT
+RESET => COUNT.OUTPUTSELECT
+RESET => COUNT.OUTPUTSELECT
+RESET => COUNT.OUTPUTSELECT
+RESET => COUNT.OUTPUTSELECT
+RESET => COUNT.OUTPUTSELECT
+RESET => COUNT.OUTPUTSELECT
+RESET => COUNT.OUTPUTSELECT
+RESET => COUNT.OUTPUTSELECT
+RESET => COUNT.OUTPUTSELECT
+RESET => TEN.OUTPUTSELECT
+RESET => TEN.OUTPUTSELECT
+RESET => TEN.OUTPUTSELECT
+RESET => TEN.OUTPUTSELECT
+CLK => TEN[0].CLK
+CLK => TEN[1].CLK
+CLK => TEN[2].CLK
+CLK => TEN[3].CLK
+CLK => COUNT[0].CLK
+CLK => COUNT[1].CLK
+CLK => COUNT[2].CLK
+CLK => COUNT[3].CLK
+CLK => COUNT[4].CLK
+CLK => COUNT[5].CLK
+CLK => COUNT[6].CLK
+CLK => COUNT[7].CLK
+CLK => COUNT[8].CLK
+CLK => COUNT[9].CLK
+LOAD => COUNT.OUTPUTSELECT
+LOAD => COUNT.OUTPUTSELECT
+LOAD => COUNT.OUTPUTSELECT
+LOAD => COUNT.OUTPUTSELECT
+LOAD => COUNT.OUTPUTSELECT
+LOAD => COUNT.OUTPUTSELECT
+LOAD => COUNT.OUTPUTSELECT
+LOAD => COUNT.OUTPUTSELECT
+LOAD => COUNT.OUTPUTSELECT
+LOAD => COUNT.OUTPUTSELECT
+LOAD => TEN.OUTPUTSELECT
+LOAD => TEN.OUTPUTSELECT
+LOAD => TEN.OUTPUTSELECT
+LOAD => TEN.OUTPUTSELECT
+LOAD => DONE.OUTPUTSELECT
+DATA[0] => COUNT.DATAB
+DATA[1] => COUNT.DATAB
+DATA[2] => COUNT.DATAB
+DATA[3] => COUNT.DATAB
+DATA[4] => COUNT.DATAB
+DATA[5] => COUNT.DATAB
+DATA[6] => COUNT.DATAB
+DATA[7] => COUNT.DATAB
+DATA[8] => COUNT.DATAB
+DATA[9] => COUNT.DATAB
+
+
+|lab4|prandom:prand
+ADDRESS[0] => Decoder0.IN2
+ADDRESS[0] => Decoder1.IN1
+ADDRESS[0] => DATA[5].DATAIN
+ADDRESS[1] => Decoder0.IN1
+ADDRESS[1] => Decoder1.IN0
+ADDRESS[2] => Decoder0.IN0
+
+
+|lab4|address_generator:address_gen
+RESET => Address.OUTPUTSELECT
+RESET => Address.OUTPUTSELECT
+RESET => Address.OUTPUTSELECT
+CLK => Address[0]~reg0.CLK
+CLK => Address[1]~reg0.CLK
+CLK => Address[2]~reg0.CLK
+
+
+|lab4|var_clk:clockGenerator
+clock_sel[0] => Mux0.IN2
+clock_sel[1] => Mux0.IN1
+clock_sel[2] => Mux0.IN0
+clock_50MHz => clock_50MHz.IN8
+
+
+|lab4|var_clk:clockGenerator|pclock:counter_10MHz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab4|var_clk:clockGenerator|pclock:counter_1MHz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab4|var_clk:clockGenerator|pclock:counter_100kHz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab4|var_clk:clockGenerator|pclock:counter_10kHz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab4|var_clk:clockGenerator|pclock:counter_1kHz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab4|var_clk:clockGenerator|pclock:counter_100Hz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab4|var_clk:clockGenerator|pclock:counter_10Hz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab4|var_clk:clockGenerator|pclock:counter_1Hz
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+EN => always1.IN1
+EN => count[1].ENA
+EN => count[0].ENA
+EN => count[2].ENA
+EN => count[3].ENA
+
+
+|lab4|hex_to_seven_seg:scoreADisplay
+B[0] => u1.DATAIN
+B[1] => u2.DATAIN
+B[2] => u3.DATAIN
+B[3] => u4.DATAIN
+
+
+|lab4|hex_to_seven_seg:scoreBDisplay
+B[0] => u1.DATAIN
+B[1] => u2.DATAIN
+B[2] => u3.DATAIN
+B[3] => u4.DATAIN
+
+
+|lab4|hex_to_seven_seg:winnerDisplay
+B[0] => u1.DATAIN
+B[1] => u2.DATAIN
+B[2] => u3.DATAIN
+B[3] => u4.DATAIN
+
+
+|lab4|hex_to_seven_seg:stateDisplay
+B[0] => u1.DATAIN
+B[1] => u2.DATAIN
+B[2] => u3.DATAIN
+B[3] => u4.DATAIN
+
+

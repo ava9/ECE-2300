@@ -1,0 +1,6 @@
+|tffp
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+T => Q.OUTPUTSELECT
+
+

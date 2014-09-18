@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Alex/Desktop/lab3/tffp.v
+source_file = 1, C:/Users/Alex/Desktop/lab3/db/tffp.cbx.xml
+design_name = tffp
+instance = comp, \CLK~I , CLK, tffp, 1
+instance = comp, \RESET~I , RESET, tffp, 1
+instance = comp, \T~I , T, tffp, 1
+instance = comp, \Q~0 , Q~0, tffp, 1
+instance = comp, \Q~reg0 , Q~reg0, tffp, 1
+instance = comp, \Q~I , Q, tffp, 1

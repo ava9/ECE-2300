@@ -1,0 +1,360 @@
+Quartus II
+Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+14
+1076
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+var_clk
+# storage
+db|lab3.(1).cnf
+db|lab3.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+var_clk.v
+455277a51e14d2be708d2e5bcd15c033
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+var_clk:clockGenerator
+}
+# macro_sequence
+
+# end
+# entity
+pclock
+# storage
+db|lab3.(2).cnf
+db|lab3.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+var_clk.v
+455277a51e14d2be708d2e5bcd15c033
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+NCYCLES
+5
+PARAMETER_SIGNED_DEC
+USR
+}
+# hierarchies {
+var_clk:clockGenerator|pclock:counter_10MHz
+}
+# macro_sequence
+
+# end
+# entity
+pclock
+# storage
+db|lab3.(3).cnf
+db|lab3.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+var_clk.v
+455277a51e14d2be708d2e5bcd15c033
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+NCYCLES
+10
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+var_clk:clockGenerator|pclock:counter_1MHz
+var_clk:clockGenerator|pclock:counter_100kHz
+var_clk:clockGenerator|pclock:counter_10kHz
+var_clk:clockGenerator|pclock:counter_1kHz
+var_clk:clockGenerator|pclock:counter_100Hz
+var_clk:clockGenerator|pclock:counter_10Hz
+var_clk:clockGenerator|pclock:counter_1Hz
+}
+# macro_sequence
+
+# end
+# entity
+hex_to_seven_seg
+# storage
+db|lab3.(4).cnf
+db|lab3.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+hex_to_seven_seg.v
+f2195230bc68c556e7ea12e517c33f4
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+hex_to_seven_seg:minDisplay
+hex_to_seven_seg:tensecDisplay
+hex_to_seven_seg:secDisplay
+hex_to_seven_seg:decisecDisplay
+hex_to_seven_seg:centisecDisplay
+}
+# macro_sequence
+
+# end
+# entity
+treg4bit
+# storage
+db|lab3.(6).cnf
+db|lab3.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+treg4bit.v
+827f61bb27a7f3cd3ecad8a344d8bd10
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+tcounter:h0|treg4bit:counter
+tcounter:h1|treg4bit:counter
+tcounter:S0|treg4bit:counter
+tcounter:S1|treg4bit:counter
+tcounter:M|treg4bit:counter
+}
+# macro_sequence
+
+# end
+# entity
+tffp
+# storage
+db|lab3.(7).cnf
+db|lab3.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+tffp.v
+5f3b6ff53c09215d9138422ca7273c5
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+tcounter:h0|treg4bit:counter|tffp:reg0
+tcounter:h0|treg4bit:counter|tffp:reg1
+tcounter:h0|treg4bit:counter|tffp:reg2
+tcounter:h0|treg4bit:counter|tffp:reg3
+tcounter:h1|treg4bit:counter|tffp:reg0
+tcounter:h1|treg4bit:counter|tffp:reg1
+tcounter:h1|treg4bit:counter|tffp:reg2
+tcounter:h1|treg4bit:counter|tffp:reg3
+tcounter:S0|treg4bit:counter|tffp:reg0
+tcounter:S0|treg4bit:counter|tffp:reg1
+tcounter:S0|treg4bit:counter|tffp:reg2
+tcounter:S0|treg4bit:counter|tffp:reg3
+tcounter:S1|treg4bit:counter|tffp:reg0
+tcounter:S1|treg4bit:counter|tffp:reg1
+tcounter:S1|treg4bit:counter|tffp:reg2
+tcounter:S1|treg4bit:counter|tffp:reg3
+tcounter:M|treg4bit:counter|tffp:reg0
+tcounter:M|treg4bit:counter|tffp:reg1
+tcounter:M|treg4bit:counter|tffp:reg2
+tcounter:M|treg4bit:counter|tffp:reg3
+}
+# macro_sequence
+
+# end
+# entity
+tcounter
+# storage
+db|lab3.(5).cnf
+db|lab3.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+tcounter.v
+40d047c1a72afaddf715ee5b837bd44
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+tcounter:h0
+tcounter:h1
+tcounter:S0
+tcounter:S1
+tcounter:M
+}
+# macro_sequence
+
+# end
+# entity
+lab3
+# storage
+db|lab3.(0).cnf
+db|lab3.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+lab3.v
+49efadf43692c4dad57d911dd3b14b20
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

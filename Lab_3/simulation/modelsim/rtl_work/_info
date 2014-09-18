@@ -1,0 +1,133 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Alex\Desktop\lab3\simulation\modelsim
+vhex_to_seven_seg
+ImB9f_0Lz=3zcGaOS<5FN>1
+VXZ^BGXSl`LiHCR?ZXf2>h1
+Z1 dC:\Users\Alex\Desktop\lab3\simulation\modelsim
+w1392452696
+8C:/Users/Alex/Desktop/lab3/hex_to_seven_seg.v
+FC:/Users/Alex/Desktop/lab3/hex_to_seven_seg.v
+L0 1
+Z2 OV;L;6.6d;45
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Alex/Desktop/lab3 -O0
+!s100 QbFbTfKVB>2MD@@@a6;HV3
+!s85 0
+!s101 -O0
+vlab3
+IS33dG7gV[RjJO[Fio6W5_1
+VaNVk6MC9LAYUD857hLNk01
+R1
+w1394475292
+8C:/Users/Alex/Desktop/lab3/lab3.v
+FC:/Users/Alex/Desktop/lab3/lab3.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 kR9iKLoB@RY;NC^nCJP`I2
+!s85 0
+!s101 -O0
+vlab3_test
+!s100 GDfC;QWXY7:YIS23YOMaZ2
+IE`CL]A?cUm:o2JFAZ97DS2
+V2fF9ndMBeWcSHOLXBfoJ01
+R1
+w1394473288
+8C:/Users/Alex/Desktop/lab3/lab3_test.v
+FC:/Users/Alex/Desktop/lab3/lab3_test.v
+L0 14
+R2
+r1
+!s85 0
+31
+!s101 -O0
+R3
+R4
+vpclock
+IG9SV3WCO^^L1L:fmW2c4n3
+VF29[g;IKDOo_@78g5a6O63
+R1
+Z5 w1330983576
+Z6 8C:/Users/Alex/Desktop/lab3/var_clk.v
+Z7 FC:/Users/Alex/Desktop/lab3/var_clk.v
+L0 52
+R2
+r1
+31
+R3
+R4
+!s100 =X31?<J618nVaVnX6fK_62
+!s85 0
+!s101 -O0
+vtcounter
+I`=dEDR;cgbXd?N>_6?o_P0
+Vl7hco0[[27z>1f7zL9e?:0
+R1
+w1393877917
+8C:/Users/Alex/Desktop/lab3/tcounter.v
+FC:/Users/Alex/Desktop/lab3/tcounter.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 DgX[5nC`4nORb?JJNOL6d3
+!s85 0
+!s101 -O0
+vtffp
+I5dKbmH5PST_]:`hHmSeaj3
+V<M^47o22=e_KQ5L3g0B@o3
+R1
+w1393875181
+8C:/Users/Alex/Desktop/lab3/tffp.v
+FC:/Users/Alex/Desktop/lab3/tffp.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 f?F6MZAk3:^H3IaXQ=zSN1
+!s85 0
+!s101 -O0
+vtreg4bit
+I_o=]K:IWW6FDXmEL?>5aP1
+V4SLYBC;lSkT^8Z2BiezQB2
+R1
+w1393491253
+8C:/Users/Alex/Desktop/lab3/treg4bit.v
+FC:/Users/Alex/Desktop/lab3/treg4bit.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 f@OBbj[zAfkD@XFiCc]Y>1
+!s85 0
+!s101 -O0
+vvar_clk
+IWHGfjWBd9m@g8>5FlFBgd2
+VPc=FIPXTW1;^PPe0GziE42
+R1
+R5
+R6
+R7
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 bPzNogF]kCRQ4ee1Tg<1z2
+!s85 0
+!s101 -O0

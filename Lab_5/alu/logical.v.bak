@@ -1,0 +1,31 @@
+module logical(
+	input	[7:0]	A,
+	input	[7:0]	B,
+	input		OP,
+
+	output	[7:0]	Y
+
+	output		C
+	output		V
+	output		N
+	output		Z); // add all inputs and outputs inside parentheses
+
+	// reg and internal variable definitions
+
+	// implement module here
+
+	// Carry out and overflow are always 0
+	assign C <= 0;
+	assign V <= 0;
+	assign N <= (Y[7] == 1’b1) ? 1 : 0;
+	assign Z <= (Y == 8’b00000000) ? 1 : 0;
+
+	always @(*) begin
+		if (OP == 0) begin
+			Y <= A & B;
+		end else begin
+			Y <= A | B;
+		end
+	end
+
+endmodule

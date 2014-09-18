@@ -1,0 +1,213 @@
+# Reading C:/altera/11.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab4_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\11.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\11.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/xprt/Desktop/Cornell/Class\ Materials/ECE/ECE\ 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4 {C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/var_clk.v}
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module var_clk
+# -- Compiling module pclock
+# 
+# Top level modules:
+# 	var_clk
+# vlog -vlog01compat -work work +incdir+C:/Users/xprt/Desktop/Cornell/Class\ Materials/ECE/ECE\ 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4 {C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/prandom.v}
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module prandom
+# 
+# Top level modules:
+# 	prandom
+# vlog -vlog01compat -work work +incdir+C:/Users/xprt/Desktop/Cornell/Class\ Materials/ECE/ECE\ 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4 {C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4.v}
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module lab4
+# 
+# Top level modules:
+# 	lab4
+# vlog -vlog01compat -work work +incdir+C:/Users/xprt/Desktop/Cornell/Class\ Materials/ECE/ECE\ 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4 {C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/hex_to_seven_seg.v}
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module hex_to_seven_seg
+# 
+# Top level modules:
+# 	hex_to_seven_seg
+# vlog -vlog01compat -work work +incdir+C:/Users/xprt/Desktop/Cornell/Class\ Materials/ECE/ECE\ 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4 {C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/address_generator.v}
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module address_generator
+# 
+# Top level modules:
+# 	address_generator
+# vlog -vlog01compat -work work +incdir+C:/Users/xprt/Desktop/Cornell/Class\ Materials/ECE/ECE\ 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4 {C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/countdown.v}
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module countdown
+# 
+# Top level modules:
+# 	countdown
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/xprt/Desktop/Cornell/Class\ Materials/ECE/ECE\ 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4 {C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v}
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module lab4_test
+# 
+# Top level modules:
+# 	lab4_test
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" lab4_test
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps lab4_test 
+# Loading work.lab4_test
+# Loading work.lab4
+# Loading work.countdown
+# Loading work.prandom
+# Loading work.address_generator
+# Loading work.var_clk
+# Loading work.pclock
+# Loading work.hex_to_seven_seg
+# ** Warning: (vsim-3017) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Too few port connections. Expected 29, found 16.
+#         Region: /lab4_test/UUT
+# ** Warning: (vsim-3722) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Missing connection for port 'A_INC'.
+# ** Warning: (vsim-3722) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Missing connection for port 'B_INC'.
+# ** Warning: (vsim-3722) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Missing connection for port 'LEDARRAYRED'.
+# ** Warning: (vsim-3722) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Missing connection for port 'LEDARRAYGREEN'.
+# ** Warning: (vsim-3722) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Missing connection for port 'HEX7'.
+# ** Warning: (vsim-3722) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Missing connection for port 'HEX6'.
+# ** Warning: (vsim-3722) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v(66): [TFMPC] - Missing connection for port 'LOAD_MUX'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# MSIM>
+# MSIM> ===============================================================
+# MSIM>
+# MSIM> PART B LAB TEST CASES (can be ignored for Part B prelab)
+# MSIM>
+# MSIM> ===============================================================
+# MSIM>
+# MSIM> 
+# MSIM> TEST 1: TWO REGULAR WINS
+# MSIM> ========================
+# MSIM> 
+# MSIM> Reset is correct. Reading delay of 200 (DATA at ADDRESS 000) correctly from prandom. STATE =  0, SIGNAL = 0, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Asserting active-low NEXT advances states correctly. STATE =  1, SIGNAL = 0, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 200 cycles...
+# MSIM> Correctly signaled after 200-cycle countdown. STATE =  5, SIGNAL = 1, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Correctly waiting while signaling. STATE =  6, SIGNAL = 1, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Advancing 10 cycles to skip to just after end of false start period...
+# MSIM> Correctly gave point to Player A when button pressed after false start period passes. STATE = 11, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Waiting after end of round is correct. Reading delay of 200 (DATA at ADDRESS 000) correctly from prandom. STATE = 11, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Waiting after end of round is correct. Reading delay of 700 (DATA at ADDRESS 001) correctly from prandom. STATE = 11, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Waiting after end of round is correct. Reading delay of 350 (DATA at ADDRESS 010) correctly from prandom. STATE = 11, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Asserting active-low NEXT advances states correctly. STATE =  1, SIGNAL = 0, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 350 cycles...
+# MSIM> Correctly signaled after 350-cycle countdown. STATE =  5, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Correctly waiting while signaling. STATE =  6, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Advancing 9 cycles to skip to just before end of false start period...
+# MSIM> Correctly gave point to Player B when Player A false starts. STATE = 14, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 1
+# MSIM> Asserting active-low NEXT advances states correctly. STATE =  1, SIGNAL = 0, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 0
+# MSIM> Correctly gave point to Player A when Player B false starts while beginning to count down. STATE = 14, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 1
+# MSIM> Waiting after end of round is correct. Reading delay of 350 (DATA at ADDRESS 010) correctly from prandom. STATE = 14, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 1
+# MSIM> Waiting after end of round is correct. Reading delay of 500 (DATA at ADDRESS 011) correctly from prandom. STATE = 14, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 1
+# MSIM> Asserting active-low NEXT advances states correctly. STATE =  1, SIGNAL = 0, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 500 cycles...
+# MSIM> Correctly signaled after 500-cycle countdown. STATE =  5, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Correctly waiting while signaling. STATE =  6, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Advancing 25 cycles to skip false start period...
+# MSIM> Correctly gave point to Player B when button pressed after false start period passes. STATE = 11, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 0
+# MSIM> Waiting after end of round is correct. Reading delay of 150 (DATA at ADDRESS 110) correctly from prandom. STATE = 11, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 0
+# MSIM> Asserting active-low NEXT advances states correctly. STATE =  1, SIGNAL = 0, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 150 cycles...
+# MSIM> Correctly signaled after 150-cycle countdown. STATE =  5, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 0
+# MSIM> Correctly waiting while signaling. STATE =  6, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 0
+# MSIM> Advancing 12 cycles to skip false start period...
+# MSIM> Correctly gave point/win to Player B when button pressed after false start period passes. STATE = 10, SIGNAL = 1, SCORE_A = 0, SCORE_B = 2, WINNER = b, FALSE_START = 0
+# MSIM> Waiting after end of game is correct. Reading delay of 150 (DATA at ADDRESS 110) correctly from prandom. STATE = 10, SIGNAL = 1, SCORE_A = 0, SCORE_B = 2, WINNER = b, FALSE_START = 0
+# MSIM> Pressing NEXT after end of game correctly has no effect. Reading delay of 550 (DATA at ADDRESS 111) correctly from prandom. STATE = 10, SIGNAL = 1, SCORE_A = 0, SCORE_B = 2, WINNER = b, FALSE_START = 0
+# MSIM> 
+# MSIM> TEST 2: HOLDING DOWN NEXT, RESET IN THE MIDDLE
+# MSIM> ==============================================
+# MSIM> 
+# MSIM> Reset is correct. Reading delay of 200 (DATA at ADDRESS 000) correctly from prandom. STATE =  0, SIGNAL = 0, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Asserting active-low NEXT advances states correctly. STATE =  1, SIGNAL = 0, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 200 cycles...
+# MSIM> Correctly signaled after 200-cycle countdown. STATE =  5, SIGNAL = 1, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Correctly waiting while signaling. STATE =  6, SIGNAL = 1, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Advancing 10 cycles to skip to just after end of false start period...
+# MSIM> Correctly gave point to Player A and started next round when button pressed after false start period passes. STATE =  1, SIGNAL = 0, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 150 cycles...
+# MSIM> Correctly signaled after 150-cycle countdown. STATE =  5, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Correctly waiting while signaling. STATE =  6, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Advancing 9 cycles to skip to just before end of false start period...
+# MSIM> Correctly gave point to Player B and started next round  when Player A false starts. STATE =  1, SIGNAL = 0, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 0
+# MSIM> Correctly gave point to Player A and started next round when Player B false starts while beginning to count down. STATE =  1, SIGNAL = 0, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 650 cycles (but will reset after 96)...
+# MSIM> Reset is correct, including blanking scores. Reading delay of 200 (DATA at ADDRESS 000) correctly from prandom. STATE =  0, SIGNAL = 0, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Asserting active-low NEXT advances states correctly. STATE =  1, SIGNAL = 0, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 200 cycles...
+# MSIM> Correctly signaled after 200-cycle countdown. STATE =  5, SIGNAL = 1, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Correctly waiting while signaling. STATE =  6, SIGNAL = 1, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Advancing 25 cycles to skip false start period...
+# MSIM> Correctly gave point to Player A and started new round when button pressed after false start period passes. STATE =  1, SIGNAL = 0, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 300 cycles...
+# MSIM> Correctly signaled after 300-cycle countdown. STATE =  5, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Correctly waiting while signaling. STATE =  6, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Advancing 12 cycles to skip false start period...
+# MSIM> Correctly gave point/win to Player A when button pressing tied after false start period passes. STATE =  9, SIGNAL = 1, SCORE_A = 2, SCORE_B = 0, WINNER = a, FALSE_START = 0
+# MSIM> Holding down NEXT after end of game correctly has no effect. STATE =  9, SIGNAL = 1, SCORE_A = 2, SCORE_B = 0, WINNER = a, FALSE_START = 0
+# MSIM> 
+# MSIM> TEST 3: ONE REGULAR WIN, ONE FALSE START WIN
+# MSIM> ============================================
+# MSIM> 
+# MSIM> Reset is correct. Reading delay of 200 (DATA at ADDRESS 000) correctly from prandom. STATE =  0, SIGNAL = 0, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Waiting after reset is correct. Reading delay of 700 (DATA at ADDRESS 001) correctly from prandom. STATE =  0, SIGNAL = 0, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Asserting active-low NEXT advances states correctly. STATE =  1, SIGNAL = 0, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 700 cycles (but will false start after 34)...
+# MSIM> Correctly gave point/win to Player B when button pressing tied during initial countdown. STATE = 14, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 1
+# MSIM> Waiting after end of round is correct. Reading delay of 200 (DATA at ADDRESS 000) correctly from prandom. STATE = 14, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 1
+# MSIM> Waiting after end of round is correct. Reading delay of 700 (DATA at ADDRESS 001) correctly from prandom. STATE = 14, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 1
+# MSIM> Waiting after end of round is correct. Reading delay of 350 (DATA at ADDRESS 010) correctly from prandom. STATE = 14, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 1
+# MSIM> Asserting active-low NEXT advances states correctly. STATE =  1, SIGNAL = 0, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 350 cycles...
+# MSIM> Correctly signaled after 350-cycle countdown. STATE =  5, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 0
+# MSIM> Correctly waiting while signaling. STATE =  6, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 0
+# MSIM> Advancing 14 cycles to skip to past the false start period...
+# MSIM> Correctly gave point to Player A. STATE = 11, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Asserting active-low NEXT advances states correctly. STATE =  1, SIGNAL = 0, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 500 cycles...
+# MSIM> Correctly signaled after 500-cycle countdown. STATE =  5, SIGNAL = 1, SCORE_A = 1, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Checking input if Player B false starts right as SIGNAL turns on...
+# MSIM> Correctly gave point/win to Player A after Player B false started. STATE = 12, SIGNAL = 1, SCORE_A = 2, SCORE_B = 0, WINNER = a, FALSE_START = 1
+# MSIM> 
+# MSIM> TEST 4: TWO FALSE START WINS
+# MSIM> ============================
+# MSIM> 
+# MSIM> Reset is correct. Reading delay of 200 (DATA at ADDRESS 000) correctly from prandom. STATE =  0, SIGNAL = 0, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Waiting after reset is correct. Reading delay of 700 (DATA at ADDRESS 001) correctly from prandom. STATE =  0, SIGNAL = 0, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Asserting active-low NEXT advances states correctly. STATE =  1, SIGNAL = 0, SCORE_A = 0, SCORE_B = 0, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 700 cycles (but will false start after 13)...
+# MSIM> Correctly gave point/win to Player B when A false starts initial countdown. STATE = 14, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 1
+# MSIM> Waiting after end of round is correct. Reading delay of 500 (DATA at ADDRESS 011) correctly from prandom. STATE = 14, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 1
+# MSIM> Asserting active-low NEXT advances states correctly. STATE =  1, SIGNAL = 0, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 0
+# MSIM> Beginning to countdown for 500 cycles...
+# MSIM> Correctly signaled after 500-cycle countdown. STATE =  5, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 0
+# MSIM> Correctly waiting while signaling. STATE =  6, SIGNAL = 1, SCORE_A = 0, SCORE_B = 1, WINNER = 0, FALSE_START = 0
+# MSIM> Advancing 4 cycles so that we are still in the false start period...
+# MSIM> Correctly gave point/win to Player B after both players tied and false started. STATE = 13, SIGNAL = 1, SCORE_A = 0, SCORE_B = 2, WINNER = b, FALSE_START = 1
+# MSIM> 
+# MSIM> FSM IS CORRECT        o   o
+# MSIM>  81 out of 81           |  
+# MSIM> checks passed!        \___/
+# MSIM> 
+# Break in Module lab4_test at C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v line 1486
+# Simulation Breakpoint: Break in Module lab4_test at C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v line 1486
+# MACRO ./lab4_run_msim_rtl_verilog.do PAUSED at line 22

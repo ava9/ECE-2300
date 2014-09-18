@@ -1,0 +1,133 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\xprt\Desktop\Cornell\Class Materials\ECE\ECE 2300\Lab\lab4_final\lab4_3.24.14\lab4\lab4\simulation\modelsim
+vaddress_generator
+IhkMK?__74?mBzi@<7lKBX1
+VNY<UOEgm2>GH]A<2cIELM3
+Z1 dC:\Users\xprt\Desktop\Cornell\Class Materials\ECE\ECE 2300\Lab\lab4_final\lab4_3.24.14\lab4\lab4\simulation\modelsim
+Z2 w1396635571
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/address_generator.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/address_generator.v
+L0 1
+Z3 OV;L;6.6d;45
+r1
+31
+Z4 o-vlog01compat -work work -O0
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4} -O0
+!s100 WA@:kDOfX>CXNmZibKd0n3
+!s85 0
+!s101 -O0
+vcountdown
+IaHCf[79laRTiGoml6j;i80
+Vd@P6[ID9f0BiY<J?[]IX?1
+R1
+R2
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/countdown.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/countdown.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 X1@KRbc=Enn:baOe[@X1<0
+!s85 0
+!s101 -O0
+vhex_to_seven_seg
+I=4cQcI6i3@onW39U;6@>H0
+VXZ^BGXSl`LiHCR?ZXf2>h1
+R1
+R2
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/hex_to_seven_seg.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/hex_to_seven_seg.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 QbFbTfKVB>2MD@@@a6;HV3
+!s85 0
+!s101 -O0
+vlab4
+IFJ?dlchQG`_DJjKN:nJ`70
+V2l9S[Rm>h^DI4^MM25@Vn1
+R1
+Z6 w1396635572
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 TSABB:1]jh:i9eBD05^ok0
+!s85 0
+!s101 -O0
+vlab4_test
+!s100 G@:J:Jh8]<?X5e0?QAEU:1
+If0iDJISGWg27LIKNkbn`g2
+V2VobAnRadKYR2DYSjM1L^1
+R1
+w1396745239
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/lab4_test.v
+L0 16
+R3
+r1
+!s85 0
+31
+!s101 -O0
+R4
+R5
+vpclock
+I_P5R@>=95E;?CfO<OUhWk0
+VF29[g;IKDOo_@78g5a6O63
+R1
+R6
+Z7 8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/var_clk.v
+Z8 FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/var_clk.v
+L0 52
+R3
+r1
+31
+R4
+R5
+!s100 =X31?<J618nVaVnX6fK_62
+!s85 0
+!s101 -O0
+vprandom
+IISh>9_ViWS[_WRg3TWUN^3
+VPHTM@GGTRMHece73Yc[hQ2
+R1
+R6
+8C:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/prandom.v
+FC:/Users/xprt/Desktop/Cornell/Class Materials/ECE/ECE 2300/Lab/lab4_final/lab4_3.24.14/lab4/lab4/prandom.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 O66bR63K[g:2D?<cY27Hm3
+!s85 0
+!s101 -O0
+vvar_clk
+Ign`<`;Tb@f@b]n<1G>>U90
+VPc=FIPXTW1;^PPe0GziE42
+R1
+R6
+R7
+R8
+L0 1
+R3
+r1
+31
+R4
+R5
+!s100 bPzNogF]kCRQ4ee1Tg<1z2
+!s85 0
+!s101 -O0

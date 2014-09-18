@@ -1,0 +1,11 @@
+|sega
+W => OUT.IN1
+W => OUTNAND.IN1
+X => OUT.IN0
+X => OUT.IN0
+Y => OUT.IN0
+Z => OUT.IN1
+Z => OUT.IN1
+Z => OUT.IN1
+
+

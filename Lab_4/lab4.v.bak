@@ -1,0 +1,86 @@
+module lab4(CLK50, RESET, CLK_SEL, NEXT, PLAYER_A, PLAYER_B, TEST_LOAD, SIGNAL, SCORE_A, SCORE_B, WINNER, STATE, FALSE_START, ADDRESS, DATA, CLK, LEDARRAYRED, LEDARRAYGREEN, HEX7, HEX6, HEX5, HEX4, HEX3, HEX2, HEX1, HEX0);
+  input         CLK50;
+  input         RESET;
+  input  [2:0]  CLK_SEL;
+  input         NEXT;
+  input         PLAYER_A;
+  input         PLAYER_B;
+  input         TEST_LOAD;
+
+  output        SIGNAL;
+  output [3:0]  SCORE_A;
+  output [3:0]  SCORE_B;
+  output [3:0]  WINNER;
+  output [3:0]  STATE;
+  output        FALSE_START;
+  output [2:0]  ADDRESS;
+  output [9:0]  DATA;
+  output        CLK;
+  output [17:0] LEDARRAYRED;
+  output [8:0]  LEDARRAYGREEN;
+  output [6:0]  HEX7;
+  output [6:0]  HEX6;
+  output [6:0]  HEX5;
+  output [6:0]  HEX4;
+  output [6:0]  HEX3;
+  output [6:0]  HEX2;
+  output [6:0]  HEX1;
+  output [6:0]  HEX0;
+  
+  reg           SIGNAL;
+  reg    [3:0]  SCORE_A;
+  reg    [3:0]  SCORE_B;
+  reg    [3:0]  WINNER;
+  reg    [3:0]  STATE;
+  reg           FALSE_START;
+
+
+
+  // ADD YOUR CODE BELOW THIS LINE
+  
+  
+  
+  // ADD YOUR CODE ABOVE THIS LINE
+
+
+
+  // VARIABLE CLOCK MODULE
+  var_clk clockGenerator(
+    .clock_50MHz(CLK50),
+    .clock_sel(CLK_SEL),
+    .var_clock(CLK)
+  );
+  
+  // LED ARRAY BROADCASTER
+  assign LEDARRAYRED = FALSE_START ? 18'h3FFFF : 187'b0;
+  assign LEDARRAYGREEN = SIGNAL ? 9'h1FF : 9'b0;
+
+  // SEVEN-SEGMENT DISPLAY DRIVERS
+
+  // replace unused segments with code to disable display
+  assign HEX7 = 7'b1111111;
+  assign HEX5 = 7'b1111111;
+  assign HEX2 = 7'b1111111;
+  assign HEX1 = 7'b1111111;
+
+  hex_to_seven_seg scoreADisplay(
+    .B(SCORE_A),
+    .SSEG_L(HEX6)
+  );
+
+  hex_to_seven_seg scoreBDisplay(
+    .B(SCORE_B),
+    .SSEG_L(HEX4)
+  );
+
+  hex_to_seven_seg winnerDisplay(
+    .B(WINNER),
+    .SSEG_L(HEX3)
+  );
+
+  hex_to_seven_seg stateDisplay(
+    .B(STATE),
+    .SSEG_L(HEX0)
+  );
+
+endmodule
